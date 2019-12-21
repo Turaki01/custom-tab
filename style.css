@@ -1,0 +1,24 @@
+.border-bottom {
+    border-bottom: 1px solid #B7B7B7;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.green-text {
+    color: #13B4AC;
+}
+
+.active-green {
+    border-bottom: 3px solid #13B4AC;
+}
+
+.fa-tab {
+    font-size: 28px;
+}
+
+.active-green > i {
+    font-size: 28px;
+    color: #13B4AC !important;
+}

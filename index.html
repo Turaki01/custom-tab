@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Tab</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+
+        <!-- Tab header -->
+        <div class="d-inline-flex border-bottom">
+
+            <!-- About HREA -->
+            <div id="about-div" class="mr-5 cursor active-green">
+                <i class="fa fa-tab fa-info-circle text-secondary"></i>
+                <h4 id="about" class="green-text" onclick="changeContent('about')">About HREA</h4>
+            </div>
+
+            <!-- History -->
+            <div id="history-div" class="cursor">
+                <i class="fa fa-tab fa-history text-secondary"></i>
+                <h4 id="history" class="text-secondary" onclick="changeContent('history')">History</h4>
+            </div>
+        </div>
+
+        <!-- Tab Body -->
+
+        <div class="pt-4">
+            <!-- about hrea body -->
+            <div id="aboutBody">
+                The HREA Work Festival is designed to develop an agile, innovative and future-ready human workforce. The
+                Festival comprises multiple events with one overarching mission to deepen the reflection on the future
+                world of work, and how to face the challenges and grasp the opportunities it may bring. Featuring world
+                renowned speakers drawn from various industries of specialization, participants will experience
+                breath-taking plenary sessions, themed stages, innovation village and a world-class exhibition center.
+            </div>
+
+            <!-- history body -->
+            <div id="historyBody" class="d-none">
+                <p style="color: #F4523B;">The Transition of a Ground Breaking Conference</p>
+
+                <p>Since 2016, HR Expo Africa has been organizing one of the biggest human resource conferences in
+                    Africa. Having attracted over 3000 participants, featured over 200 stellar speakers and over 1000
+                    organizations from across the continent, the conference has sparked transformational conversations
+                    and catalysed the reawakening of HR to play more pivotal roles in the organizations. </p>
+
+                <p>After a higly-acclaimed fourth edition of the conference which featured many great speakers, HREA is
+                    now transitioning to help individuals and organizations scale through the new realities of the
+                    Fourth Industrial Revolution.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="custom.js"></script>
+</body>
+
+</html>
